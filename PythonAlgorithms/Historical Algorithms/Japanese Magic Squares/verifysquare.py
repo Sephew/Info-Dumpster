@@ -1,4 +1,4 @@
-
+#checks if row, columns, main diag and anti diag summs up  equally
 def verifysquare(square):
     sums = []
     rowsums = [sum(square[i]) for i in range(0,len(square))]
